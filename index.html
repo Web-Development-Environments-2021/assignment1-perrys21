@@ -73,6 +73,10 @@
         <div id="qr">QR Code</div>
         <a name=qr></a>
     </div>
+    <h style="display: flex; justify-content: center; margin-top: 25px; font-size: 20px;">A QR code for my site!</h>
+    <div id="qrpicture">
+        <img src="qr.PNG" width="300" height="300">
+    </div>
 
     <div id="qatitle">
         <div id="qa">Q&A</div>
@@ -139,6 +143,8 @@
             <div>
                 <fieldset> 
                     <w style="display: flex; justify-content: center; margin-top: 10px; font-size: 24px;">Feel free to leave a message!</w><br>
+                    <input type="text" id="fromMail" placeholder="From" style="width: 99%; font-size: 20px;"><br>
+                    <br>
                     <input type="text" id="subject" name="subject" placeholder="Subject" style="width: 99%; font-size: 20px;"><br>
                     <br>
                     <textarea type="textbox" class="conbody" name="body" size="40" style="height: 200px; width: 99%; font-size: 20px;" placeholder="Please type your mail here" tabindex="0px" dir="itr"></textarea><br><br>
@@ -167,8 +173,9 @@
         function setValue() {
             var tomail = document.getElementById('subject').value;
             const bod = document.getElementsByClassName('conbody').item(0);
+            var frommail = document.getElementById('fromMail').value;
             let bd = bod.value;
-            var msg = 'mailto:perry.sinai@gmail.com?subject='+ tomail +'&body='+bd;
+            var msg = 'mailto:perrys@post.bgu.ac.il?subject='+ tomail +'&body='+bd;
             window.location = msg;
         }
             </script>
