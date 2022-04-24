@@ -66,6 +66,57 @@ deta{
   
   
 }
+
+questionsSquare{
+  align-items: center;
+}
+
+table.wrapper.leftTable{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+  font-size: 22px;
+  text-align: center;
+  width: 90%;
+  align-items: center;
+  margin-left: 5%;
+}
+table.wrapper{
+  border: 0px solid white;
+  border-collapse: collapse;
+  padding: 12px;
+  font-size: 22px;
+  text-align: center;
+  width: 90%;
+  align-items: center;
+  margin-left: 5%;
+  margin-top: 20px;
+}
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+  font-size: 22px;
+  text-align: center;
+}
+
+
+table.wrapper td{
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 12px;
+  font-size: 22px;
+  text-align: center;
+}
+table.leftTable td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 12px;
+  font-size: 22px;
+  text-align: center;
+}
+
+
 #left{
   border-style: solid;
   border-color: lightgreen;
@@ -75,12 +126,34 @@ deta{
   
 }
 
+#left2{
+  border-style: solid;
+  border-color: white;
+  border-width: 3px 3px 3px;
+  margin-left: 7%;
+  padding-right: 0%;
+  float: left;
+  width:39%;
+  padding-top: 50px;
+}
+
 #right{
   border-style: solid;
   border-color: lightgreen;
   border-width: 3px 3px 3px;
   margin-right: 7%;
   float:right;
+}
+#right2{
+  border-style: solid;
+  border-color: lightgreen;
+  border-width: 3px 3px 3px;
+  margin-right: 7%;
+  float:right;
+  margin-top:200px;
+  width:39%;
+  text-align: right;
+  font-size: 18px;
 }
 
 #mypicstitle{
@@ -103,7 +176,6 @@ pictures{
   font-size: 70px;
   font:bold;
   vertical-align: middle;
-  margin-right: 20px;
   margin-left: 4%;
   margin-top:50px;
   width:20%;
@@ -114,7 +186,7 @@ pictures{
   position:sticky;
   width:20%;
   margin-top:75px;
-  margin-left: 11% ;
+  margin-left: 7% ;
   
 }
 #picas2{
@@ -154,6 +226,7 @@ pictures{
   text-align: center;
   font-size: 50px;
   background-color: #E7EFC5;
+  
 }
 
 #qatitle{
@@ -161,6 +234,7 @@ pictures{
   text-align: center;
   font-size: 50px;
   background-color: #E7EFC5;
+  margin-bottom: 50px;
 }
 
 #contacttitle{
