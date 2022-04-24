@@ -119,7 +119,7 @@ table.leftTable td{
 
 #left{
   border-style: solid;
-  border-color: lightgreen;
+  border-color: #E7EFC5;
   border-width: 3px 3px 3px;
   margin-left: 7%;
   padding-right: 0%;
@@ -139,7 +139,7 @@ table.leftTable td{
 
 #right{
   border-style: solid;
-  border-color: lightgreen;
+  border-color: #E7EFC5;
   border-width: 3px 3px 3px;
   margin-right: 7%;
   float:right;
@@ -229,8 +229,14 @@ pictures{
   
 }
 
+#qrpicture{
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
 #qatitle{
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   font-size: 50px;
   background-color: #E7EFC5;
